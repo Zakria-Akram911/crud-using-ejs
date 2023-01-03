@@ -1,0 +1,8 @@
+.login-form {
+  width: 25rem;
+  max-width: 90%;
+  margin: auto;
+  display: block;
+  padding: 60px;
+  background-color: #624933;
+}

@@ -1,0 +1,186 @@
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+li,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.banner-content-main {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.banner-content {
+  max-width: 50%;
+}
+
+.banner-content h1 {
+  font-size: 42px;
+  max-width: 75%;
+  color: white;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.banner-content p {
+  max-width: 80%;
+  color: white;
+}
+
+.banner-content a {
+  color: white;
+  padding: 10px 35px;
+  display: inline-block;
+  border: 1px solid #624933;
+  margin: 30px 10px 0px 0px;
+}
+
+.banner-content > a:nth-child(3) {
+  background: #624933;
+  color: white;
+  transition: all 0.4s ease-in-out;
+}
+.banner-content a:nth-child(4) {
+  transition: all 0.4s ease-in-out;
+}
+
+.container-main {
+  max-width: 81.25%;
+  margin: 0 auto;
+}
+
+.about-us-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 0px;
+  flex-wrap: wrap;
+}
+
+.about-us-heading {
+  width: 30%;
+}
+
+.about-us-content {
+  width: 60%;
+}
+
+.about-us-heading h2 {
+  font-size: 62px;
+  max-width: 80%;
+  margin-left: 40px;
+  position: relative;
+  color: #624933;
+  font-weight: bold;
+  font-family: trajin-bold, sans-serif;
+}
+
+.about-us-heading h2::before {
+  content: "";
+  height: 100%;
+  width: 2px;
+  background: #624933;
+  position: absolute;
+  left: -40px;
+}
+
+.grid.container-main.no-wrapper {
+  flex-wrap: nowrap;
+}
+
+.footer-container {
+  max-width: 92%;
+  margin: 0 auto;
+}
+
+.footer-section1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0px;
+}
+
+.footer-logo {
+  width: 40%;
+}
+.footer-logo p {
+  opacity: 0.6;
+}
+
+.footer-social-icons a {
+  opacity: 0.6;
+}
+.footer-links {
+  width: 12%;
+}
+
+.footer-social-icons {
+  width: 20%;
+}
+
+.footer-logo img {
+  height: 98px;
+  width: 121px;
+  margin-bottom: 40px;
+}
+
+.footer-links h3 {
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.footer-links a {
+  color: black;
+  margin-bottom: 15px;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.footer-social-icons h3 {
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.footer-social-icons a {
+  color: black;
+}
+
+.footer-social-icons li {
+  display: inline-block;
+  padding: 0px 8px;
+}
+
+footer {
+  border-top: 1px solid rgba(112, 112, 112, 30%);
+}
+
+.footer-section2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+
+.footer-copyright p {
+  display: inline-block;
+}
+
+h2.new-products-heading {
+  text-align: center;
+  font-size: 38px;
+  color: #624933;
+}
